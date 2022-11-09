@@ -21,7 +21,7 @@ body{
 }
 
 /* header */
-header{
+.main{
  background-color: var(--white-bg-color);
 }
 
@@ -64,8 +64,8 @@ header{
     color: var(--accent-color);
 }
 
-.site-nav a:hover,
-.site-nav a:focus {
+.site-nav .site-link:hover,
+.site-nav .site-link:focus {
     color: var(--accent-color);
 }
 
@@ -77,13 +77,13 @@ header{
        
 }
 
-.site-connect a{
+.site-connect .connect-link{
     color: var(--primery-text-color);
     text-decoration: none;
 }
 
-.site-connect a:hover, 
-.site-connect a:focus {
+.site-connect .connect-link:hover, 
+.site-connect .connect-link:focus {
     color: var(--accent-color);
 }
 
@@ -96,7 +96,7 @@ header{
 
 }
 
-.hero h1{
+.hero .hero-title{
     color: #FFFFFF;
     font-weight: 900;
     font-size: 44px;
@@ -209,7 +209,7 @@ header{
     font-style: normal;
 }
 
-.contact p{
+.contact .contact-address{
     color: #FFFFFF;
 
     font-size: 14px;
@@ -223,6 +223,11 @@ header{
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+}
+
+.site-connect .connect:hover,
+.site-connect .connect:focus{
+    color: var(--accent-color);
 }
 
 
@@ -248,7 +253,7 @@ header{
     
 }
 
-.button-portfolio li{
+.button-portfolio .portfolio-filter{
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -268,7 +273,7 @@ header{
 
 .project-text{
     color: var(--primery-text-color);
-
+    
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
